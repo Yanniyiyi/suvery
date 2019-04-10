@@ -3,7 +3,7 @@ const axiosInstance = axios.create({
     timeout: 5000
 })
 
-axiosInstance.defaults.baseURL = 'http://www.json-generator.com/api/json/get';
+axiosInstance.defaults.baseURL = 'https://www.json-generator.com/api/json/get';
 
 // Add a response interceptor
 axiosInstance.interceptors.response.use((response) => {
